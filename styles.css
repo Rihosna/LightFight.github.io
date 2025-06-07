@@ -56,7 +56,7 @@ p, blockquote, span {
 
 /* Banner principal */
 .banner-principal {
-    background: rgba(0, 0, 0, 0.5) url('imagenes/IMG-20250604-WA0015.jpg') no-repeat center center/cover;
+    background: url('imagenes/IMG-20250604-WA0015.jpg') no-repeat center center/cover;
     height: 100vh;
     width: auto;
     display: flex;
