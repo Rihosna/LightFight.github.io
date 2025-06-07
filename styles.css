@@ -1,0 +1,225 @@
+/* Estilos generales */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+    color: #f2c200;
+    text-align: center;
+}
+
+p, blockquote, span {
+    color: #e0e0e0;
+}
+
+/* Encabezado */
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f2c200;
+}
+
+.navegacion {
+    display: flex;
+    gap: 1rem;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navegacion a:hover {
+    color: #f2c200;
+}
+
+/* Banner principal */
+.banner-principal {
+    background: rgba(0, 0, 0, 0.5) url('imagenes/IMG-20250604-WA0015.jpg') no-repeat center center/cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.contenido-banner {
+    background-color: rgba(0, 0, 0, 0.719);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.contenido-banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contenido-banner p {
+    margin-bottom: 1.5rem;
+}
+
+.boton-banner {
+    background-color: #f2c200;
+    color: #000;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.boton-banner:hover {
+    background-color: #e6b800;
+}
+
+/* Secciones */
+section {
+    padding: 3rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.vision-mision {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.vision-mision div {
+    background-color: #333;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Productos */
+.contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.producto {
+    background-color: #2a2a2a;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 300px;
+    height: 700px;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    height: 70%;
+    border: 2px solid #4e4e4e;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+/* Reseñas */
+.contenedor-resenas {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.resenas blockquote {
+    font-style: italic;
+    background-color: #2a2a2a;
+    padding: 1rem;
+    max-width: 600px;
+    border-left: 5px solid #f2c200;
+    border-radius: 5px;
+}
+
+/* Contacto */
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contacto input, .contacto textarea {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+}
+
+.contacto button {
+    padding: 0.75rem;
+    background-color: #f2c200;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contacto button:hover {
+    background-color: #e6b800;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #111;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.container {
+    font-family: 'Cinzel', serif;
+    color: #fff;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #1c1c1c;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 15px #8f8f8f;
+        text-decoration: none;
+    }
+
+    a  { font-family: 'Cinzel', serif;
+    line-height: 1.6;
+    text-align: center;
+    color: #e6b800;
+    text-decoration: none;
+    }
